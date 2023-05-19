@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+:root{
+    --Color : #6943FF;
+    --font:'inter'
+
+}
+body{
+    background-color: #cb3838ed;
+    background-image: linear-gradient(to right,var(--Color),red );
+
+    
+}
+.firstdiv{
+    margin-left: 450px;
+    margin-top: 35px;
+    background-color: #F4F4F4;
+    width: 600px;
+    height: 680px;
+    position: relative;
+    
+}
+.seconddiv
+{
+    background-color: var(--Color);
+    background-image: linear-gradient(to right,var(--Color),red );
+    transition: 1s;
+    width: 600px;
+    height: 250px;
+    padding-top:2rem;
+    border-color: var(--Color);
+    color: #ffffff;
+    font-family: var(--font);
+    position: relative;
+    
+}
+#type
+{
+    width:70px;
+    height: 50px;
+    color: #ffffff;
+    border: 3px solid white;
+    background-color: transparent;
+    outline: none;
+    font-size: 35px;
+    font-style:bold;
+    font-family: var(--font);
+    box-sizing: border-box;
+    position: absolute;
+    left:275px;
+
+    
+}
+#btn
+{
+    position: absolute;
+    top:190px;
+    width: 110px;
+    height: 40px;
+    padding: auto;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    left: 255px;
+    background-color: #ffffff;
+    color: black;
+    font: var(--font) bold;
+    
+}
+#btn:hover
+{
+    opacity: 0.9;
+
+}
+h1{
+    margin-left: 50px;
+
+}
+h2{
+    margin-bottom: 30px;
+}
+.unit
+{
+    background-color: #ffffff;
+    width:500px ;
+    height:90px;
+    margin: 30px 50px ;
+    text-align: center;
+    font-family: var(--font);
+}
+.darkFirstdiv
+{
+    background-color: rgba(78, 74, 74, 0.975);
+    margin-left: 450px;
+    margin-top: 35px;
+    width: 600px;
+    height: 680px;
+    position: relative;
+
+}
+.darkUnit
+{
+    background-color: rgba(60, 57, 57, 0.526);
+    color: white;
+    width:500px ;
+    height:90px;
+    margin: 30px 50px ;
+    text-align: center;
+    font-family: var(--font);
+    
+
+
+}
+.darkSeconddiv{
+    background-color: var(--Color);
+    background-image: linear-gradient(to right,var(--Color),rgb(96, 4, 48) );
+
+    width: 600px;
+    height: 250px;
+    padding-top:2rem;
+    border-color: var(--Color);
+    color: #ffffff;
+    font-family: var(--font);
+    position: relative;
+
+
+}
+.darkBody
+{
+    background-image: linear-gradient(to right,var(--Color),rgb(96, 4, 48) );
+
+
+}
+#modebtn{
+
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border:2px solid white;
+    background-color: transparent;
+    cursor: pointer;
+    color: #ffffff;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    font-family: var(--font);
+    font-size: 20px;
+}
+.darkbtn
+{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border:2px solid white;
+    background-color: transparent;
+    cursor: pointer;
+    color: #ffffff;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+
+
+}
+#sun{
+    position: absolute;
+    top:20px;
+
+}
